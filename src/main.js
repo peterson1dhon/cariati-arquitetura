@@ -15,15 +15,24 @@ $(document).ready(function(){
     countTo = $this.attr('data-count');
     $({ countNum : $this.text() }).animate({
        countNum : countTo
-    },{
+    },
+    {
       duration:5000,
       step : function(){
-        $this.text(Math.floor(this.countNum))
+        $this.text(Math.floor(this.countNum));
       },
       complete : function(){
         $this.text(this.countNum + '+');
       }
     }
     )
-  })
+  });
+
+  $('#project').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    gallery:{
+      enabled:true
+    }
+  });
 });
