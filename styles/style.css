@@ -321,6 +321,89 @@ body{
   overflow-y: auto;
 }
 
+.contact .form-container form input[type="submit"]{
+  background: #ff7a00;
+  width: 15rem;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.contact .form-container form input[type="submit"]:hover{
+  opacity: .8;
+}
+
+.footer{
+  background: #333;
+  text-align: center;
+}
+
+.footer .row{
+  width: 100%;
+  margin-left: 0;
+  padding: 1rem;
+}
+
+.footer .row .col-md-3{
+  margin: 1rem 0;
+}
+
+.footer h2{
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.footer img{
+  width: 25rem;
+  /* height: 3rem; */
+  background: #fff;
+  border-radius: 1rem;
+}
+
+.footer p{
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.footer .list{
+  display: flex;
+  flex-flow: column;
+}
+
+.footer .list a{
+  color: #ccc;
+  font-size: 1.7rem;
+}
+
+.footer .letter p{
+  font-size: 2rem;
+}
+
+.footer .letter input[type="email"]{
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0 1rem;
+  color: #fff;
+  height: 3rem;
+  width: 100%;
+  border: .1rem solid #fff;
+  font-size: 1.5rem;
+}
+
+.footer .letter input[type="submit"]{
+  outline: none;
+  border: none;
+  background: #fff;
+  margin: 1rem 0;
+  width: 10rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
+
+
+
 
 
 
