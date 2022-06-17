@@ -270,9 +270,18 @@ body{
   padding-top: 4rem;
 }
 
+.contact-box-container .contact-box:hover{
+  background: #ccc;
+}
+
+
 .contact-box-container .contact-box i{
   color: #ff7a00;
   font-size: 4rem;
+}
+
+.contact-box-container .contact-box i:hover{
+  color: #fff;
 }
 
 .contact-box-container .contact-box h3{
@@ -398,14 +407,35 @@ body{
   margin: 1rem 0;
   width: 10rem;
   font-size: 1.5rem;
-  border-radius: 2rem;
+  border-radius: .7rem;
 }
 
+.footer .letter input[type="submit"]:hover{
+  background: #ff7a00;
+  color: #fff;
+}
 
+.footer .credit{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  margin-bottom: 0;
+  border-top: .1rem solid #aaa;
+  letter-spacing: .2rem;
+}
 
+.footer .credit span{
+  color: #ff7a00;
+}
 
-
-
+.footer .credit span:hover{
+  font-size: 2.3rem;
+  color: #45aaf2;
+  cursor: pointer;
+}
 
 
 
@@ -418,7 +448,7 @@ body{
 
 /* media queries */
 
-@media(max-width: 760px){
+@media(max-width: 768px){
 
   html{
     font-size: 50%;
@@ -439,7 +469,7 @@ body{
 
   .header nav ul{
     height: 100%;
-    width: 33rem;
+    width: 30rem;
     background: #fff;
     flex-flow: column;
     justify-content: center;
@@ -454,7 +484,7 @@ body{
     display: block;
     padding: .5rem 0;
     border: .1rem solid rgba( 0, 0, 0, .3);
-    width: 25rem;
+    width: 20rem;
     border-radius: 5rem;
     text-align: center;
   }
@@ -470,8 +500,8 @@ body{
   
 @media(max-width: 400px){
   .home .hero .text1{
-    font-size: 2.5rem;
-    width: 35rem;
+    font-size: 2rem;
+    width: 30rem;
   }
 }
 }
